@@ -1,4 +1,4 @@
-```python
+
 runs = [148, 179, 156, 117]
 balls = [50, 62, 59, 41]
 wickets = [4, 8, 6, 5]
@@ -60,4 +60,4 @@ for i in range(4):
     print("Catches:", catches[i])
     print("Fielding Performance:", fielding)
     print("Overall Performance:", overall)
-```
+
