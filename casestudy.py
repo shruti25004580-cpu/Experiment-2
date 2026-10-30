@@ -1,3 +1,4 @@
+```python
 runs = [148, 179, 156, 117]
 balls = [50, 62, 59, 41]
 wickets = [4, 8, 6, 5]
@@ -47,3 +48,16 @@ for i in range(4):
         overall = "Supporting All-Rounder"
     else:
         overall = "Needs Improvement"
+
+    # Display Results
+    print("\nPlayer", i + 1)
+    print("Runs:", runs[i])
+    print("Strike Rate:", round(strike_rate, 2))
+    print("Batting Performance:", batting)
+    print("Wickets:", wickets[i])
+    print("Economy Rate:", round(economy, 2))
+    print("Bowling Performance:", bowling)
+    print("Catches:", catches[i])
+    print("Fielding Performance:", fielding)
+    print("Overall Performance:", overall)
+```
